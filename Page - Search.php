@@ -26,8 +26,8 @@ require_once 'DBClasses.inc.php';
             <form method="get" action = "Page - BrowseSearchResults.php" class="form">   
              <p>
             
-                <div class="grid-item"><label>Title:<input type="text" name="title" id="title" ></label></div><br><br>
-                <div class="grid-item"><label for = "artists">Artist:</label>
+                <input type ="radio" name = "searchType" value = "Title"/><div class="grid-item"><label>Title:<input type="text" name="title" id="title" ></label></div><br><br>
+                <input type ="radio" name = "searchType" value = "Artist"/><div class="grid-item"><label for = "artists">Artist:</label>
                 <select class="ui fluid dropdown" name="artists" id ="artists">
                 <option value='0'>             </option>  
                 <?php
@@ -48,7 +48,7 @@ require_once 'DBClasses.inc.php';
             </select>
             </div>
             <div class="grid-item">
-                <label for = "genres">Genre:</label>
+            <input type ="radio" name = "useGenre" value = "yes"/><label for = "genres">Genre:</label>
                 <select class="ui fluid dropdown" name="genres" id ="genres">
                 <option value='0'>                   </option>  
                 <?php
@@ -72,21 +72,15 @@ require_once 'DBClasses.inc.php';
             
                
             <div class="grid-item" id="ugh"><ul>
-                <label class="main">Year</label><br><br>
+            <input type ="radio" name = "searchType" value = "Year"/><label class="main">Year</label><br><br>
                     
-                  <label class="subs">Less Than </label><input type="text" name="YearSmall"><br>
-                  <label class="sub">Greater Than</label><input type="text" name="YearBig">
+                  <input type ="radio" name = "yearSearch1" value = "less"/><label class="subs">Less Than </label><input type="text" name="YearSmall"><br>
+                  <input type ="radio" name = "yearSearch2" value = "greater"/><label class="sub">Greater Than</label><input type="text" name="YearBig">
                     
             </ul></div>
                 &emsp;&emsp;
                 
-               <div class="grid-item" id="ugh"><ul>
-                    <label class="main">Popularity</label><br><br>
-                    
-                    <label class="subs">Less Than</label><input type="text" name="PopSmall"><br>
-                    
-                    <label class="sub">Greater Than</label><input type="text" name="PopBig">
-            </ul></div>
+               
             </div>
                     </p>
                     <input type="submit" value="Submit" class="button">
