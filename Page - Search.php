@@ -13,7 +13,7 @@ require_once 'DBClasses.inc.php';
 
         <body>
             <header>
-            <p>COMP 3512 Assign 1 Guy Goren & Matthew Anand</p>
+            <p>COMP 3512 Assignment 1 Ben Harris-Eze  & Matthew Anand</p>
             <nav>
 </header>   
  <ul id="nav">
