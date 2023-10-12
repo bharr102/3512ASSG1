@@ -11,14 +11,14 @@ require_once 'DBClasses.inc.php';
     </head>
     <body>
     <header>
-    <p>COMP 3512 Assignment 1 Ben Harris-Eze & Matthew Anand</p>   
+    <h3 class="title">COMP 3512 Assignment 1 Ben Harris-Eze & Matthew Anand</h3>   
 </header>
         <nav>
  <ul>
             <li><a href="Page - Favourites.php">Favourites</a></li> 
             <li><a href="Page - Search.php">Search</a></li>
 </ul>
-    <h1>HOME</h1>
+    <h1 class="title">&#119070 Notes &#119070</h1>
     <form method="GET" action = "Page - Playlist Results.php">
     <div class="grid-container">
   <div class="grid-item" id="genre"><a href = "Page - Playlist Results.php?Playlist=TopGenres">Top Genres</a></div>
@@ -35,7 +35,7 @@ require_once 'DBClasses.inc.php';
 
     </body>
     <footer>
-    <p>COMP 3512 &copy;  https://github.com/MatthewAnand  |  https://github.com/bharr102 </p>
+    <p>COMP 3512|A Good Value Creation&copy;  https://github.com/MatthewAnand  |  https://github.com/bharr102 </p>
 
     </footer>
   

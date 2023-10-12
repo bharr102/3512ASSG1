@@ -15,7 +15,7 @@ require_once 'DBClasses.inc.php';
 
     <body>
     <header>
-    <p>COMP 3512 Assignment 1 Ben Harris-Eze & Matthew Anand</p>
+    <h1 class="title">COMP 3512 Assignment 1 Ben Harris-Eze & Matthew Anand</h1>
     <ul id="nav">
             <li><a href="Page - Home.php">Home</a></li> 
             <li><a href="Page - Search.php">Search</a></li>
@@ -115,7 +115,6 @@ else{
             </table>
     </body>
     <footer>
-    <p>COMP 3512  &copy;  https://github.com/MatthewAnand  |  https://github.com/bharr102 </p>
-
+    <h3 class="footy">COMP 3512  &copy;  https://github.com/MatthewAnand  |  https://github.com/bharr102 </h3>
     </footer>
 </html>
