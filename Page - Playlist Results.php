@@ -12,13 +12,13 @@ require_once 'DBClasses.inc.php';
 </head>
 <body>
   <header>
-  <p>COMP 3512 Assignment 1 Ben Harris-Eze & Matthew Anand</p>
+  <h1 class=>COMP 3512 Assignment 1 Ben Harris-Eze & Matthew Anand</h1>
   <ul id="nav">
             <li id="navbar"><a href="Page - Home.php">Home</a></li> 
 </ul> 
 </header>
 
-
+<div class="output">
 <?php
 $connstring = "sqlite:./music.db";
 $conn = DatabaseHelper::createConnection(array($connstring));
@@ -26,12 +26,13 @@ $test = new SongDB($conn);
     if ($_GET['Playlist'] == 'TopGenres'){
       $result = $test->PlaylistGenre();
       try{
-        echo "<h1> Top Genres </h1>";
+        echo "<h1> &#128526 Top Genres &#128526 </h1>";
           echo "<ol>";
         foreach($result as $row){
-          echo "<li>".$row['genre_name']." - ". $row['num'] . "</td>";
+          echo "<li>".$row['genre_name']." - ". $row['num'] . "</li>";
      }
      echo "</ol>";
+     echo "<img src='images\Genres.jpg ' alt='Genres' style='float:none;width:500px;height:500px;'>";
     }
      catch(PDOException $ex){
          echo $ex;
@@ -40,7 +41,7 @@ $test = new SongDB($conn);
     if ($_GET['Playlist'] == 'TopArtists'){
       $result = $test->TopArtist();
       try{
-        echo "<h1> Top Artists </h1>";
+        echo "<h1> &#128081 Top Artists &#128081 </h1>";
         echo "<ol>";
         foreach($result as $row){
           echo "<li>".$row['artist_name']." - ". $row['num'] . "</td>";
@@ -54,7 +55,7 @@ $test = new SongDB($conn);
     if ($_GET['Playlist'] == 'TopPop'){
       $result = $test->TopPop();
       try{
-        echo "<h1> Most Popular Songs </h1>";
+        echo "<h1>  &#128158 Most Popular Songs  &#128158 </h1>";
         echo "<ol>";
       foreach($result as $row){
         
@@ -70,7 +71,7 @@ $test = new SongDB($conn);
     if ($_GET['Playlist'] == 'OneHit'){
       $result = $test->Single();
       try{
-        echo "<h1> One Hit Wonders </h1>";
+        echo "<h1> &#127776 One Hit Wonders &#127776 </h1>";
         echo "<ol>";
       foreach($result as $row){
         
@@ -86,7 +87,7 @@ $test = new SongDB($conn);
     if ($_GET['Playlist'] == 'Acoustic'){
       $result = $test->Acoustic();
       try{
-        echo "<h1> Longest Acoustic Songs </h1>";
+        echo "<h1> &#127928 Longest Acoustic Songs &#127928 </h1>";
         echo "<ol>";
       foreach($result as $row){
         
@@ -102,7 +103,7 @@ $test = new SongDB($conn);
     if ($_GET['Playlist'] == 'Club'){
       $result = $test->Clubbing();
       try{
-        echo "<h1> At The Club </h1>";
+        echo "<h1> &#128378 At The Club &#128378 </h1>";
         echo "<ol>";
       foreach($result as $row){
         
@@ -118,7 +119,7 @@ $test = new SongDB($conn);
     if ($_GET['Playlist'] == 'Running'){
       $result = $test->Running();
       try{
-        echo "<h1> Running </h1>";
+        echo "<h1> &#127939 Running &#127939 </h1>";
         echo "<ol>";
       foreach($result as $row){
         
@@ -134,7 +135,7 @@ $test = new SongDB($conn);
     if ($_GET['Playlist'] == 'Studying'){
       $result = $test->Study();
         try{
-          echo "<h1> Studying </h1>";
+          echo "<h1> &#129299 Studying &#129299 </h1>";
           echo "<ol>";
         foreach($result as $row){
           
@@ -148,6 +149,7 @@ $test = new SongDB($conn);
      }
     }
 ?>
-<footer>
-<p>COMP 3512 &copy;  https://github.com/MatthewAnand  |  https://github.com/bharr102 </p>
+</div>
+<footer class="footy">
+<p>COMP 3512|A Good Value Creation&copy;  https://github.com/MatthewAnand  |  https://github.com/bharr102 </p>
     </footer>
