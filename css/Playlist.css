@@ -14,7 +14,13 @@ body{
     text-align: center;
 }
 
-
+.title{
+        text-align: center;
+        font-style: italic;
+        font-weight: bolder;
+        color: #fe0000;
+      
+}
 
 
 ul {

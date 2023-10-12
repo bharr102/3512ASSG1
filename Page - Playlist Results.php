@@ -17,7 +17,7 @@ require_once 'DBClasses.inc.php';
             <li id="navbar"><a href="Page - Home.php">Home</a></li> 
 </ul> 
 </header>
-
+<h1 class="title">&#119070 Notes &#119070</h1>
 <div class="output">
 <?php
 $connstring = "sqlite:./music.db";
@@ -32,7 +32,7 @@ $test = new SongDB($conn);
           echo "<li>".$row['genre_name']." - ". $row['num'] . "</li>";
      }
      echo "</ol>";
-     echo "<img src='images\Genres.jpg ' alt='Genres' style='float:none;width:500px;height:500px;'>";
+     echo "<img src='images\Genres.jpg ' alt='Genres' style='width:500px;height:500px;'>";
     }
      catch(PDOException $ex){
          echo $ex;
@@ -47,6 +47,7 @@ $test = new SongDB($conn);
           echo "<li>".$row['artist_name']." - ". $row['num'] . "</td>";
      }
      echo "</ol>";
+     echo "<img src='images\artist.png ' alt='Genres' style='width:500px;height:500px;'>";
     }
      catch(PDOException $ex){
          echo $ex;
@@ -63,6 +64,7 @@ $test = new SongDB($conn);
         echo"</li>";
     }
     echo "</ol>";
+    echo "<img src='images\Popular.jpg ' alt='Genres' style='width:500px;height:500px;'>";
    }
      catch(PDOException $ex){
          echo $ex;
