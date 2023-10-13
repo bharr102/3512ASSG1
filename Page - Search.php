@@ -16,7 +16,7 @@ require_once 'DBClasses.inc.php';
 
         <body>
             <header>
-                <p>𝄞 Notes 𝄞</p>
+                <h1 class="title">𝄞 Notes 𝄞</h1>
                 <nav>
             </header>   
         <ul id="nav">
@@ -97,9 +97,8 @@ require_once 'DBClasses.inc.php';
     </body>
 
     
-    <footer>
-    <p>COMP 3512 &copy;  https://github.com/MatthewAnand  | https://github.com/bharr102 </p>
-
+    <footer class="footy">
+        <p>COMP 3512|A Good Value Creation&copy;  https://github.com/MatthewAnand  |  https://github.com/bharr102 </p>
     </footer>
 
 
