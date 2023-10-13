@@ -18,7 +18,7 @@ header p{
   font-weight: 600;
   text-align: center;
   font-family: cursive;
-  margin-top: 10px;
+  
 }
 
 footer p{
@@ -107,5 +107,5 @@ ul {
   footer{
     width: 100%;
     background-color: #000;
-    
+    border: none
   }
