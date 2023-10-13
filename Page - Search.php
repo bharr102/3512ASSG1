@@ -16,7 +16,7 @@ require_once 'DBClasses.inc.php';
 
         <body>
             <header>
-                <p>Notes</p>
+                <p>𝄞 Notes 𝄞</p>
                 <nav>
             </header>   
         <ul id="nav">
