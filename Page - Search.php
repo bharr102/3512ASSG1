@@ -23,6 +23,7 @@ require_once 'DBClasses.inc.php';
             <li><a href="Page - Favourites.php">Favourites</a></li> 
             <li><a href="Page - Home.php">Home</a></li>
         </ul>
+        <main>
         <fieldset> 
          <legend><h1>Song Search</h1></legend> 
          <div class="grid-container">
@@ -90,7 +91,8 @@ require_once 'DBClasses.inc.php';
         </fieldset>
 
                 
-        </form>   
+        </form>
+        </main>   
     </body>
 
     
