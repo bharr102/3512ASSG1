@@ -109,3 +109,21 @@ ul {
     background-color: #000;
     border: none
   }
+
+  #title{
+    margin-left: 29px;
+    width: 200px;
+  }
+
+  #genres {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 200px;
+  }
+
+  #artists
+  {
+    margin-bottom: 2px;
+    margin-left: 18px;
+    width: 200px;
+  }
