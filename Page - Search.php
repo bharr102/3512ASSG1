@@ -30,8 +30,8 @@ require_once 'DBClasses.inc.php';
             <form method="get" action = "Page - BrowseSearchResults.php" class="form">   
              <p>
             
-                <input type ="radio" name = "searchType" value = "Title"/><div class="grid-item"><label>Title:<input type="text" name="title" id="title" ></label></div><br><br>
-                <input type ="radio" name = "searchType" value = "Artist"/><div class="grid-item"><label for = "artists">Artist:</label>
+                <div class="grid-item"><input type ="radio" name = "searchType" value = "Title"/><label>Title:<input type="text" name="title" id="title" ></label></div><br><br>
+                <div class="grid-item"><input type ="radio" name = "searchType" value = "Artist"/><label for = "artists">Artist:</label>
                 <select class="ui fluid dropdown" name="artists" id ="artists">
                 <option value='0'>             </option>  
                 <?php
