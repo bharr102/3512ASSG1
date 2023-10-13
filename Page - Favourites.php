@@ -8,14 +8,14 @@ require_once 'DBClasses.inc.php';
 <html lang="en">
         <head>
             <meta charset="utf-8">
-            <title>COMP 3512 Assign 1</title>
+            <title>COMP 3512 Assignment 1 Ben Harris-Eze & Matthew Anand</title>
         <link rel="stylesheet" href="css/favourites.css">
 
     </head>
 
     <body>
     <header>
-    <h1 class="title">COMP 3512 Assignment 1 Ben Harris-Eze & Matthew Anand</h1>
+    <h1 class="title">𝄞 Notes 𝄞</h1>
     <ul id="nav">
             <li><a href="Page - Home.php">Home</a></li> 
             <li><a href="Page - Search.php">Search</a></li>
@@ -114,7 +114,7 @@ else{
         ?>
             </table>
     </body>
-    <footer>
-    <h3 class="footy">COMP 3512  &copy;  https://github.com/MatthewAnand  |  https://github.com/bharr102 </h3>
+    <footer class="footy">
+<p>COMP 3512|A Good Value Creation&copy;  https://github.com/MatthewAnand  |  https://github.com/bharr102 </p>
     </footer>
 </html>

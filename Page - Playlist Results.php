@@ -9,15 +9,16 @@ require_once 'DBClasses.inc.php';
 <html>
     <head>
 <link rel="stylesheet" href="css/Playlist.css">
+<title>COMP 3512 Assignment 1 Ben Harris-Eze & Matthew Anand</title>
+
 </head>
 <body>
   <header>
-  <h1 class=>COMP 3512 Assignment 1 Ben Harris-Eze & Matthew Anand</h1>
+  <h1 class="title">&#119070 Notes &#119070</h1>
   <ul id="nav">
             <li id="navbar"><a href="Page - Home.php">Home</a></li> 
 </ul> 
 </header>
-<h1 class="title">&#119070 Notes &#119070</h1>
 <div class="output">
 <?php
 $connstring = "sqlite:./music.db";
@@ -47,7 +48,7 @@ $test = new SongDB($conn);
           echo "<li>".$row['artist_name']." - ". $row['num'] . "</td>";
      }
      echo "</ol>";
-     echo "<img src='images\artist.png ' alt='Genres' style='width:500px;height:500px;'>";
+     echo "<img src='images\artist.png ' alt='topart' style='width:500px;height:500px;'>";
     }
      catch(PDOException $ex){
          echo $ex;
@@ -64,7 +65,7 @@ $test = new SongDB($conn);
         echo"</li>";
     }
     echo "</ol>";
-    echo "<img src='images\Popular.jpg ' alt='Genres' style='width:500px;height:500px;'>";
+    echo "<img src='images\Popular.jpg ' alt='toppop' style='width:500px;height:500px;'>";
    }
      catch(PDOException $ex){
          echo $ex;
@@ -81,7 +82,7 @@ $test = new SongDB($conn);
         echo"</li>";
     }
     echo "</ol>";
-    echo "<img src='images\onehit.jpg ' alt='Genres' style='width:500px;height:500px;'>";
+    echo "<img src='images\onehit.jpg ' alt='single' style='width:500px;height:500px;'>";
    }
      catch(PDOException $ex){
          echo $ex;
@@ -98,7 +99,7 @@ $test = new SongDB($conn);
         echo"</li>";
     }
     echo "</ol>";
-    echo "<img src='images\acoustic.jpg ' alt='Genres' style='width:500px;height:500px;'>";
+    echo "<img src='images\acoustic.jpg ' alt='acoustic' style='width:500px;height:500px;'>";
    }
      catch(PDOException $ex){
          echo $ex;
@@ -115,7 +116,7 @@ $test = new SongDB($conn);
         echo"</li>";
     }
     echo "</ol>";
-    echo "<img src='images\clubbing.jpg ' alt='Genres' style='width:500px;height:500px;'>";
+    echo "<img src='images\clubbing.jpg ' alt='club' style='width:500px;height:500px;'>";
    }
      catch(PDOException $ex){
          echo $ex;
@@ -132,7 +133,7 @@ $test = new SongDB($conn);
         echo"</li>";
     }
     echo "</ol>";
-    echo "<img src='images/running.jpg ' alt='Genres' style='width:500px;height:500px;'>";
+    echo "<img src='images/running.jpg ' alt='running' style='width:500px;height:500px;'>";
    }
      catch(PDOException $ex){
          echo $ex;
@@ -149,7 +150,7 @@ $test = new SongDB($conn);
           echo"</li>";
       }
       echo "</ol>";
-      echo "<img src='images\study.jpg ' alt='Genres' style='width:500px;height:500px;'>";
+      echo "<img src='images\study.jpg ' alt='blah' style='width:500px;height:500px;'>";
      }
      catch(PDOException $ex){
          echo $ex;

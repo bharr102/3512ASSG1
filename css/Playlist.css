@@ -12,6 +12,8 @@ body{
 
 .footy{
     text-align: center;
+    color: 	#fe0000;
+    height: 8%;
 }
 
 .title{
@@ -19,6 +21,7 @@ body{
         font-style: italic;
         font-weight: bolder;
         color: #fe0000;
+        font-size: 50px;
       
 }
 
@@ -38,6 +41,10 @@ ul {
     text-decoration: none;
   }
   
+  img{
+    margin-left: 700px;
+   margin-top: -250px;
+  }
 
   li a:hover {
     background-color: #555;

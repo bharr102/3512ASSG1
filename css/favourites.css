@@ -1,7 +1,29 @@
+body{
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  div{
+      display: flex;
+  }
+  
+  .column-container{
+      column-width: 15rem; 
+    column-gap: 1rem;
+    width: 80%;
+  }
+.title{
+    text-align: center;
+    color: #fe0000;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 50px;
+}
 
-
-
-
+table{
+    color: #fe0000;
+}
 
 ul {
   list-style-type: none;
@@ -25,3 +47,15 @@ li a:hover {
   background-color: #555;
   color: white;
 }
+
+footer{
+    margin-top: 425px;
+    text-align: center;
+    color: 	#fe0000;
+    height: 8%;
+  }
+
+  tr{
+    background-color: aqua;
+    text-align: center;
+  }
