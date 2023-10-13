@@ -8,11 +8,13 @@ require_once 'DBClasses.inc.php';
 <html>
 <head>
     <link rel="stylesheet" href="css/Singlesong.css">
+    <title>COMP 3512 Assignment 1 Ben Harris-Eze & Matthew Anand</title>
+
 </head>
 
 <body>
 <header>
-<p>COMP 3512 Assignment 1 Ben Harris-Eze & Matthew Anand</p>
+<h1 class="title">&#119070 Notes &#119070</h1>
 <ul id="nav">
             <li><a href="Page - Home.php">Home</a></li> 
             <li><a href="Page - Search.php">Search</a></li>
@@ -72,7 +74,7 @@ if(isset($_GET['id'])){
           echo"</tr>";
         }
     }
-  //  }
+
       catch (PDOException $ex){
   
         }
@@ -144,7 +146,8 @@ if(isset($_GET['id'])){
     </div>
 </body>
 <footer>
-<p>COMP 3512  &copy;  https://github.com/MatthewAnand  |  https://github.com/bharr102 </p>
+<footer class="footy">
+<p>COMP 3512|A Good Value Creation&copy;  https://github.com/MatthewAnand  |  https://github.com/bharr102 </p>
     </footer>
 
 </html>

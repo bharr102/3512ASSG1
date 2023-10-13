@@ -65,7 +65,6 @@ $test = new SongDB($conn);
         echo"</li>";
     }
     echo "</ol>";
-    echo "<img src='images\Popular.jpg ' alt='toppop' style='width:500px;height:500px;'>";
    }
      catch(PDOException $ex){
          echo $ex;
