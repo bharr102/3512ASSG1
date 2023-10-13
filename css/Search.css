@@ -1,6 +1,20 @@
 header p{
   margin: 0;
 }
+
+footer p{
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+
+footer{
+  height: 3%;
+  border-top: solid grey 3px;
+}
+
+
+
 body {
   height: 100vh;
   margin: 0;
@@ -24,13 +38,14 @@ ul {
 
   #nav a{
     color: white;
+    font-size: 30px;
   }
 
   
   
   header{
     width: auto;
-    height: 10%;
+    height: 8%;
     background-color: #000;
     border-bottom: white;
     
@@ -56,8 +71,16 @@ ul {
 
   fieldset{
     background-image: url(https://www.rollingstone.com/wp-content/uploads/2022/12/Best-Songs-2022.jpg?w=1581&h=1054&crop=1);
+    background-repeat: no-repeat;
+    background-size: 3000px 2000px;
     margin-top: 0;
-    height: 80%;
+    height: 85%;
+    border: none;
+  }
+
+  fieldset h1{
+    margin-top: 0;
+    
   }
 
   footer{
@@ -65,8 +88,3 @@ ul {
     background-color: #000;
   }
 
-  footer p{
-    color: white;
-    height: 10%;
-  }
-  
