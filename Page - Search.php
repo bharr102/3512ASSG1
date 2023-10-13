@@ -8,18 +8,21 @@ require_once 'DBClasses.inc.php';
 <!DOCTYPE html>
     <html>
         <head>
-        <link rel="stylesheet" href="css/Search.css">                  
+        <link rel="stylesheet" href="css/Search.css">               
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>   
+        <title>COMP 3512 Assignment 1 Ben Harris-Eze & Matthew Anand</title>
         </head>
 
         <body>
             <header>
-            <p>COMP 3512 Assignment 1 Ben Harris-Eze  & Matthew Anand</p>
-            <nav>
-</header>   
- <ul id="nav">
+                <p>Notes</p>
+                <nav>
+            </header>   
+        <ul id="nav">
             <li><a href="Page - Favourites.php">Favourites</a></li> 
             <li><a href="Page - Home.php">Home</a></li>
-</ul>
+        </ul>
         <fieldset> 
          <legend><h1>Song Search</h1></legend> 
          <div class="grid-container">
