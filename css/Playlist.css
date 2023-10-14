@@ -1,9 +1,36 @@
+@font-face {
+  font-family: NeuMontreal;
+  src: url("/Fonts/NeueMontreal-Bold.otf");
+}
 
+@font-face {
+  font-family: NeuMontreal-Light;
+  src: url("/Fonts/NeueMontreal-Italic.otf");
+}
+header h1{
+  display: flex;
+  text-align: center;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  height: 7%;
+  width: 100%;
+  background-color: white;
+  font-family: NeuMontreal;
+}
+
+#nav{
+  display: flex;
+  width: 100%;
+  text-align: center;
+}
 body{
     background-color: rgb(194, 171, 171);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    margin: 0;
   }
   
 .output{
@@ -21,8 +48,9 @@ body{
         text-align: center;
         font-style: italic;
         font-weight: bolder;
-        color: #fe0000;
+        color: black;
         font-size: 50px;
+        font-family: NeuMontreal;
       
 }
 
