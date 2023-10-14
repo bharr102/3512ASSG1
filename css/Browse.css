@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    width: auto;
+    height: 8px;
+    min-height: 10%;
+    background-color: #000;
+    border-bottom: solid grey 2px; 
+    
+  }
+  header h1{
+    color:#e60118;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    font-family: cursive;
+    margin: 0;
+  }
+
+  p{
+    margin: 0;
+  }
+
+  footer p{
+    color: #e60118;
+    margin: 0;
+    text-align: center;
+  }
+  
+  footer{
+    height: 3%;
+    background-color: #000;
+   
+  }

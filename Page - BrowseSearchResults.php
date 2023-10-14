@@ -12,8 +12,8 @@ require_once 'DBClasses.inc.php';
 </head>
 <body>
 <header>
-<p>COMP 3512 Assignment 1 Ben Harris-Eze & Matthew Anand</p>  
-</header>
+  <h1 class="title">𝄞 Notes 𝄞</h1>
+</header>  
 <p>
     <form method="get" action="Page - BrowseSearchResults.php">
     <input type="submit" value="Show All"> <br>

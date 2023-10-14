@@ -17,7 +17,6 @@ require_once 'DBClasses.inc.php';
         <body>
             <header>
                 <h1 class="title">𝄞 Notes 𝄞</h1>
-                <nav>
             </header>   
         <ul id="nav">
             <li><a href="Page - Favourites.php">Favourites</a></li> 
@@ -25,13 +24,13 @@ require_once 'DBClasses.inc.php';
         </ul>
         <main>
         <fieldset> 
-         <legend><h1>Song Search</h1></legend> 
+         <legend><h1>Search</h1></legend> 
          <div class="grid-container">
             <form method="get" action = "Page - BrowseSearchResults.php" class="form">   
              <p>
             
-                <div class="grid-item"><input type ="radio" name = "searchType" value = "Title"/><label>Title:<input type="text" name="title" id="title" class = "inputBox" ></label></div><br><br>
-                <div class="grid-item"><input type ="radio" name = "searchType" value = "Artist"/><label for = "artists">Artist:</label>
+                <div class="grid-item"><input type ="radio" name = "searchType1" value = "Title"/><label>Title:<input type="text" name="title" id="title" class = "inputBox" ></label></div><br><br>
+                <div class="grid-item"><input type ="radio" name = "searchType1" value = "Artist"/><label for = "artists">Artist:</label>
                 <select class="ui fluid dropdown" name="artists" id ="artists">
                 <option value='0'>             </option>  
                 <?php
@@ -52,7 +51,7 @@ require_once 'DBClasses.inc.php';
             </select>
             </div>
             <div class="grid-item">
-            <input type ="radio" name = "useGenre" value = "yes"/><label for = "genres">Genre:</label>
+            <input type ="radio" name = "SearchType2" value = "genre"/><label for = "genres">Genre:</label>
                 <select class="ui fluid dropdown" name="genres" id ="genres">
                 <option value='0'>                   </option>  
                 <?php
@@ -77,18 +76,18 @@ require_once 'DBClasses.inc.php';
             
                
             <div class="grid-item" id="ugh"><ul>
-            <input type ="radio" name = "searchType" value = "Year"/><label class="main">Year</label><br><br>
+            <input type ="radio" name = "searchType1" value = "Year" id = "year"/><label class="main" for = "year">Year</label><br><br>
                     
-                  <input type ="radio" name = "yearSearch1" value = "less"/><label class="subs">Less Than </label><input type="text" name="YearSmall"><br>
-                  <input type ="radio" name = "yearSearch2" value = "greater"/><label class="sub">Greater Than</label><input type="text" name="YearBig">
+                  <span><input type ="radio" name = "SearchType2" value = "less" id ="less"/><label class="subs" for = "less">Less Than </label><br><input type="text" name="YearSmall" id = "lessThan"><span><br>
+                  <span><input type ="radio" name = "SearchType2" value = "greater" id = "greater"/><label class="sub" for ="greater">Greater Than</label><br><input type="text" name="YearBig" id = "greaterThan"></span>
                     
             </ul></div>
                 &emsp;&emsp;
                 
-               
-            </div>
-                    </p>
+                </p>
                     <input type="submit" value="Submit" class="button">
+            </div>
+                    
         </fieldset>
 
                 
