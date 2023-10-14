@@ -1,4 +1,6 @@
 body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     height: 100vh;
     font-family: 'Courier New', Courier, monospace;
@@ -33,5 +35,5 @@ header{
   footer{
     height: 3%;
     background-color: #000;
-   
+   margin-top: auto;
   }
