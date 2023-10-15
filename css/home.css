@@ -50,6 +50,7 @@ body{
       
     .title{
         font-style: italic;
+        color: white;
     }
   a:link{
     color:black
@@ -108,14 +109,14 @@ ul {
   }
   
   li a:hover {
-    background-color: #f21d1d42;
-    color: #f21d1d42;
+    background-color: #fe0000;
+    color: black;
   }
   
   footer{
     display: flex;
     text-align: center;
-    color: 	#fe0000;
+    color: 	white;
     max-height: 3%;
     margin-top: auto;
     border-top: solid white 1px;
