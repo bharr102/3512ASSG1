@@ -1,11 +1,29 @@
+@font-face {
+  font-family: NeuMontreal;
+  src: url("/Fonts/NeueMontreal-Bold.otf");
+}
+
+@font-face {
+  font-family: NeuMontreal-Light;
+  src: url("/Fonts/NeueMontreal-Italic.otf");
+}
+
 body{
     background-color: black;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    font-family: NeuMontreal-Light;
+    
   }
   div{
       display: flex;
+  }
+
+  #nav{
+    border-top: solid gray 2px;
+    border-bottom: solid gray 2px;
   }
   
   .column-container{
@@ -15,7 +33,7 @@ body{
   }
 .title{
     text-align: center;
-    color: #fe0000;
+    color: white;
     font-style: italic;
     font-weight: bold;
     font-size: 50px;
@@ -29,15 +47,14 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 200px;
+  width: 100%;
   font-style: italic;
-  background: rgb(2,0,36);
-background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color: black;
 }
 
 li a {
   display: block;
-  color: #000;
+  color: white;
   padding: 8px 16px;
   text-decoration: none;
 }
@@ -51,11 +68,19 @@ li a:hover {
 footer{
     margin-top: 425px;
     text-align: center;
-    color: 	#fe0000;
+    color: 	 white;
     height: 8%;
   }
 
   tr{
-    background-color: aqua;
+    background-color: white;
     text-align: center;
+    color: black;
+  }
+  .footy{
+    border-top: solid gray 2px;
+  }
+  .subHeading{
+    color: white;
+    font-family: NeuMontreal;
   }

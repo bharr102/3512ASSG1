@@ -22,7 +22,7 @@ require_once 'DBClasses.inc.php';
 </ul>
 </header>
 <?php
-     echo"   <h1>Favourites</h1>";
+     echo"   <h1 class ='subHeading'>Favourites</h1>";
      echo"     <table>";
      echo"      <tr>";
      echo"         <th>Title</th>";
