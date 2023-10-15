@@ -12,9 +12,9 @@ body {
 header{
     width: auto;
     height: 8px;
-    min-height: 10%;
+    min-height: 11%;
     background-color: #000;
-    border-bottom: solid grey 2px; 
+    
     
   }
   header h1{

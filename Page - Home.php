@@ -11,11 +11,11 @@ require_once 'DBClasses.inc.php';
     </head>
     <body>
     <header>
-    <h3 class="title">COMP 3512 Assignment 1 Ben Harris-Eze & Matthew Anand</h3>  
+    
     <h1 class="title">&#119070 Notes &#119070</h1> 
 </header>
-        <nav>
- <ul>
+        
+ <ul class = "nav">
             <li><a href="Page - Favourites.php">Favourites</a></li> 
             <li><a href="Page - Search.php">Search</a></li>
 </ul>
@@ -33,12 +33,12 @@ require_once 'DBClasses.inc.php';
 </div>
     </form>
 
-
-    </body>
     <footer>
     <p>COMP 3512|A Good Value Creation&copy;  https://github.com/MatthewAnand  |  https://github.com/bharr102 </p>
-
     </footer>
+
+    </body>
+    
   
   
 </body>
