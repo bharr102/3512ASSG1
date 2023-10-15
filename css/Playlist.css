@@ -8,15 +8,17 @@
   src: url("/Fonts/NeueMontreal-Italic.otf");
 }
 header h1{
-  display: flex;
   text-align: center;
+  color: white;
+  font-family: NeuMontreal;
+  font-size: 40px;
 }
 header {
   display: flex;
   flex-direction: column;
-  height: 7%;
+  min-height: 7%;
   width: 100%;
-  background-color: white;
+  background-color: black;
   font-family: NeuMontreal;
   text-align: center;
 }
@@ -24,9 +26,11 @@ header {
 #nav{
   display: flex;
   width: 100%;
-  text-align: center;
-  background-color: #066cff;
+  background-color: black;
+  border-top: solid grey 1px;
 }
+
+
 body{
     background-color: rgb(194, 171, 171);
     min-height: 100vh;
@@ -42,10 +46,15 @@ body{
 
 .footy{
     display: flex;
-    text-align: center;
-    color: 	#fe0000;
-    height: 8%;
-    background-color: white;
+    height: 3%;
+    color: 	white;
+    height: 6;
+    background-color: black;
+}
+.footy p {
+  text-align: center;
+  width: 100%;
+  font-size: 12px;
 }
 
 .title{
@@ -74,6 +83,10 @@ ul {
     text-decoration: none;
   }
   
+  #navbar{
+    display: flex;
+    color: white;
+  }
   img{
     margin-left: 500px;
    margin-top: -250px;

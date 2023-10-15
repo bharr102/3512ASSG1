@@ -1,13 +1,35 @@
+@font-face {
+    font-family: NeuMontreal;
+    src: url("/Fonts/NeueMontreal-Bold.otf");
+  }
+  
+  @font-face {
+    font-family: NeuMontreal-Light;
+    src: url("/Fonts/NeueMontreal-Italic.otf");
+  }
 body{
     background-color: #000;
+    min-height: 100vh;
+    margin: 0;
+    font-family: neumontreal-light;
 }
-
+header{
+    max-height: 10%;
+}
 .title{
     text-align: center;
     font-style: italic;
     font-weight: bolder;
     color: #fe0000;
     font-size: 50px;
+    margin: 0;
+
+}
+
+#nav{
+    width: 100%;
+    font-size: ;
+
 }
 
 .footy{

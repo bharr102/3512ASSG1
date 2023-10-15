@@ -17,7 +17,7 @@ require_once 'DBClasses.inc.php';
 <body>
 
   <header>
-    <h1 class="title">&#119070 Notes &#119070</h1>
+    <h1 >&#119070 Notes &#119070</h1>
     <ul id="nav">
       <li id="navbar"><a href="Page - Home.php">Home</a></li> 
     </ul> 

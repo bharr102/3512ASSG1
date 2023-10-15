@@ -22,6 +22,7 @@ body{
   }
   
   header{
+    height: 5%;
     max-height: 7%;
     min-height: 4%;
     background-color: black;
@@ -117,5 +118,15 @@ ul {
     color: 	#fe0000;
     max-height: 3%;
     margin-top: auto;
+    border-top: solid white 1px;
+    
   }
 
+  footer p 
+  {
+    
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+  }

@@ -8,6 +8,8 @@ require_once 'DBClasses.inc.php';
 <html>
 <head>
     <link rel="stylesheet" href="css/Singlesong.css">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>  
     <title>COMP 3512 Assignment 1 Ben Harris-Eze & Matthew Anand</title>
 
 </head>
@@ -145,9 +147,9 @@ if(isset($_GET['id'])){
 </table>
     </div>
 </body>
-<footer>
+
 <footer class="footy">
 <p>COMP 3512|A Good Value Creation&copy;  https://github.com/MatthewAnand  |  https://github.com/bharr102 </p>
-    </footer>
+</footer>
 
 </html>
