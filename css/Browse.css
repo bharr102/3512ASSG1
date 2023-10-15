@@ -29,18 +29,22 @@ header{
   p{
     margin: 0;
   }
-
-  footer p{
-    color: #e60118;
-    margin: 0;
-    font-size: 12px;
-  }
   
   footer{
-    height: 3%;
+    text-align: center;
+    display: flex;
+    width: 100%;
     background-color: #000;
-   margin-top: auto;
-   text-align: center;
+    border: none;
+    margin-top: auto;
+   
+  }
+  footer p{
+    display: flex;
+    color: white;
+    margin: 0 2px;
+    font-size: 12px;
+    text-align: center;
   }
 
   .TableHeader{

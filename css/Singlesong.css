@@ -26,18 +26,25 @@ header{
 
 }
 
-#nav{
-    width: 100%;
-    font-size: ;
-
-}
-
-.footy{
-    margin-top: 250px;
+footer{
+    
+    display: flex;
     text-align: center;
-    color: 	#fe0000;
-    height: 8%;
-}
+    color: 	white;
+    max-height: 3%;
+    margin-top: 325px;
+    border-top: solid white 1px;
+    
+  }
+
+  footer p 
+  {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+  }
+
 table{
     border-spacing: 10px;
     padding-top: 10px;
